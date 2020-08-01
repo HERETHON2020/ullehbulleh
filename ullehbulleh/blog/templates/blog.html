@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <table>
+            <tr>
+                <td>팀 번호</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>팀 이름</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>서비스 이름</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>구현한 페이지 사진을 업로드해주세요!</td>
+                <td>            {{ form.as_table}}</td>
+            </tr>
+            <tr>
+                <td>페이지 설명 (140자 제한)</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>페이지 링크</td>
+                <td></td>
+            </tr>
+        </table>
+        <input type="submit">
+    </form>
+</body>
+</html>
