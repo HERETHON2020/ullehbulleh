@@ -1,0 +1,41 @@
+@font-face { font-family: 'Arita-dotum-Medium'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-dotum-Medium.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+
+.vote-title{
+    font-family: 'Bellota', cursive;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.vote-info{
+    font-family: 'Arita-dotum-Medium', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.vote-container{
+    padding: 0 80px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.content{
+    border: 1px solid black;
+    height: 50vh;
+}
+
+.submit{
+    margin: 30px auto;
+    font-family: 'Arita-dotum-Medium', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    background-color: orange;
+    padding-top: 15px;
+    width: 200px;
+    height: 50px;
+}

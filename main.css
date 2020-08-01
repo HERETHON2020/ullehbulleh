@@ -1,0 +1,51 @@
+@font-face { font-family: 'Arita-dotum-Medium'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-dotum-Medium.woff') format('woff'); font-weight: normal; font-style: normal; }
+body, html {cursor: url(lion-face.gif) 20 20, auto;
+    overflow: hidden;
+    }
+
+a{
+    color: black;
+    text-decoration: none;
+    cursor: url(lion-face.gif) 20 20, auto;
+}
+
+.title{
+    font-family: 'Bellota', cursive;
+    font-size: 17rem;
+    text-align: center;
+    
+}
+
+.title:hover{
+    text-decoration: underline;
+}
+
+.click{
+    font-family: 'Arita-dotum-Medium', sans-serif;
+    font-size: 5rem;
+    width: 50vw;
+    text-align: center;
+    
+}
+
+.regi{
+    margin: 30px auto;
+    text-decoration: none;
+    background-color: orange;
+}
+
+.regi:hover{
+    transform: rotate(-10deg);
+    background-color: #a748ff;
+}
+
+.vote{
+    margin: 60px auto;
+    background-color: orange;
+    text-decoration: none;
+}
+
+.vote:hover{
+    transform: rotate(10deg);
+    background-color: #a748ff;
+}
